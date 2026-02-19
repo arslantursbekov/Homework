@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #004668;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+.display {
+    background-color: #030b3f;
+    color: white;
+    font-size: 48px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: right;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 340px;
+    height: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.theme-switcher {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: small;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    background-color: #030b3f;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.level {
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.level2 {
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-left: 16px;
+    margin-top: 2px;
+}
+
+.level3 {
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+.container2 {
+    background-color: #030b3f;
+    border-radius :10px;
+    height: 350px;
+    width: 350px;
+}
+
+.keyboard-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    width: 300px;
+}
+
+.button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+.button:active {
+    background-color: #c0c0c0;
+}
+
+.button.delete {
+    background-color: #004cff;
+    color: white;
+    font-size: 20px;
+}
+
+.button.reset {
+    grid-row: 5 / 6;
+    grid-column: 1/ 3;
+    background-color: #004cff;
+    color: white;
+}
+
+.button.equal {
+    grid-row: 5 / 6;
+    grid-column: 3 / 5;
+    background-color: #ff4c4c;
+    color: white;
+    font-size: 20px;
+}
+

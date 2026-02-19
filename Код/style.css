@@ -1,0 +1,123 @@
+body {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: #3a3a3a;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.personal-best {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #ffd700;
+}
+
+.trophy {
+    margin-right: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.stat {
+    font-size: 16px;
+}
+
+.wpm {
+    color: #ffffff;
+}
+
+.accuracy {
+    color: #ff69b4;
+}
+
+.time {
+    color: #ffff00;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.difficulty,
+.mode {
+    display: flex;
+}
+
+.option-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #3a3a3a;
+    border: none;
+    color: #d4d4d4;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.option-btn.selected {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.passage {
+    width: 100%;
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #d4d4d4;
+}
+
+.correct {
+    color: #00ff00;
+}
+
+.error {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.current {
+    background-color: #333333;
+}
